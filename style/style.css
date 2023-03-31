@@ -1,16 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 body {
-    background-color: #0f0f0f;
     color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+    
+    width: 100vw;
 }
 
 .container-header {
+    background-color: #0f0f0f;
+    height: 100vh;
+}
 
+header {
+    text-align: center;
+    margin: auto;
+}
+
+header h1, header p {
+    margin: 0px;
+}
+
+header p {
+    font-size: 20px;
 }
 
 header img {
     border-radius: 50%;
     height: 200px;
+}
+
+.container-conteudo {
+    margin: 100px 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-around;
+    justify-items: center;
+    background: linear-gradient(348deg, rgba(125,255,42,1) 0%, rgba(251,57,36,1) 50%, rgba(0,99,255,1) 100%);
+}
+
+
+.aula {
+    color: #0f0f0f;
+    border-radius: 20px;
+    border: #0f0f0f solid 1px;
+    height: 400px;
+    width: 300px;
+    box-shadow: black 10px 0 0s;
+    text-align: center;
 }
