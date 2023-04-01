@@ -47,16 +47,39 @@ header img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-content: space-around;
     justify-items: center;
+}
+
+.aula {
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    justify-items: center;
+    align-content: space-around;
+    box-shadow: #3b3b3ba6  0 7px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in;
+}
+
+.aula:hover {
+    transform: translateY(-25px);
+    
+}
+
+.aula h2 {
+    background-color: #0f0f0fc4;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.aula1 {
     background: linear-gradient(348deg, rgba(125,255,42,1) 0%, rgba(251,57,36,1) 50%, rgba(0,99,255,1) 100%);
 }
 
-
-.aula {
-    color: #0f0f0f;
-    border-radius: 20px;
-    border: #0f0f0f solid 1px;
-    height: 400px;
-    width: 300px;
-    box-shadow: black 10px 0 0s;
-    text-align: center;
+.aula2 {
+    background: linear-gradient(18deg, rgba(0,232,237,1) 0%, rgba(217,183,28,1) 50%, rgba(255,70,195,1) 100%);
 }

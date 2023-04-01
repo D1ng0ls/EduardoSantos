@@ -1,0 +1,17 @@
+body {
+    background-color: #0f0f0f;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff
+}
+
+header {
+    margin: 2%;
+}
+
+.conteudo {
+    margin: 5% 2%;
+}
+
+header h3, header h1 {
+    margin: 0px;
+}
