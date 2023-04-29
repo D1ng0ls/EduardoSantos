@@ -85,8 +85,13 @@ header img {
     background: linear-gradient(18deg, rgba(0,232,237,1) 0%, rgba(217,183,28,1) 50%, rgba(255,70,195,1) 100%);
 }
 
+<<<<<<< HEAD
 .aula3 {
     background: linear-gradient(225deg, rgba(69,69,207,1) 0%, rgba(29,172,106,1) 50%, rgba(133,81,236,1) 100%);
+=======
+.aula4 {
+    background: linear-gradient(153deg, rgba(179,15,62,1) 0%, rgba(42,49,175,1) 50%, rgba(76,225,255,1) 100%);
+>>>>>>> 3b97b524bdf9767d14ff7d97401cbebc372194d1
 }
 
 

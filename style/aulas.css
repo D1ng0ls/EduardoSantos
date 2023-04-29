@@ -1,7 +1,8 @@
 body {
     background-color: #0f0f0f;
     font-family: 'Courier New', Courier, monospace;
-    color: #fff
+    color: #fff;
+    scroll-behavior: smooth;
 }
 
 header, footer {
@@ -20,9 +21,14 @@ header h3 {
     color: rgb(255, 86, 86);
 }
 
-p {
+ul, p {
     font-size: 20px;
     margin: 5px 0px;
+}
+
+ul {
+    margin: 15px 0;
+    font-size: 18px;
 }
 
 a {
@@ -34,4 +40,40 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pre {
+    padding: 10px 0 10px 15px;
+    border-left: 3px solid #fff;
+    background-color: rgba(112, 112, 112, 0.116);
+    max-width: 55%;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: Consolas,monaco,monospace !important;
+    box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.158);
+}
+
+.pre-cit {
+    text-align: right;
+    color: rgb(255, 86, 86);
+    margin: 0 0 0 auto;
+    display: block;
+    padding: 0 15px 0 0;
+}
+
+.mostra {
+    animation: mostra 1s infinite linear;
+}
+
+@keyframes mostra {
+    0% {
+        box-shadow: 0px 0px 50px rgb(255, 86, 86);;
+    }
+    100% {
+        box-shadow: 0px 0px 0px rgb(255, 86, 86);;
+    }
 }
