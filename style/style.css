@@ -85,6 +85,10 @@ header img {
     background: linear-gradient(18deg, rgba(0,232,237,1) 0%, rgba(217,183,28,1) 50%, rgba(255,70,195,1) 100%);
 }
 
+.aula4 {
+    background: linear-gradient(153deg, rgba(179,15,62,1) 0%, rgba(42,49,175,1) 50%, rgba(76,225,255,1) 100%);
+}
+
 
 @media screen and (max-width: 1439px){
     .container-conteudo {
