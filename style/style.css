@@ -55,7 +55,7 @@ header img {
     height: 400px;
     width: 300px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer;   
     justify-items: center;
     align-content: space-around;
     box-shadow: #3b3b3ba6  0 7px 5px;
@@ -64,10 +64,19 @@ header img {
     justify-content: center;
     align-items: center;
     transition: all 0.1s ease-in;
+    background: rgba(0, 0, 0, 0.493);
 }
 
 .aula:hover {
     transform: translateY(-25px);
+}
+
+.aulas {
+    cursor:not-allowed;
+}
+
+.aulas:hover {
+    transform: translateY(0);
 }
 
 .aula h2 {
