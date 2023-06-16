@@ -46,6 +46,10 @@ img {
     max-width: 750px;
 }
 
+#img2 {
+    max-width: 350px;
+}
+
 .pre {
     padding: 10px 0 10px 15px;
     border-left: 3px solid #fff;
@@ -86,4 +90,10 @@ img {
     background-color: rgba(112, 112, 112, 0.116);
     max-width: 500px;
     border: 2px dashed rgb(255, 86, 86);
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 100%;
+    }
 }

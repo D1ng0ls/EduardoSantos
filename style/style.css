@@ -105,6 +105,25 @@ header img {
     background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
 }
 
+.aula6 {
+    background: linear-gradient(35deg, #00b09b, #96c93d);
+}
+
+.aula7 {
+    background: linear-gradient(165deg, #feac5e, #c779d0, #4bc0c8);
+}
+
+.aula8 {
+    background: linear-gradient(215deg, #ec008c, #fc6767);
+}
+
+.aula9 {
+    background-color: #2692F0;
+}
+
+.aula10 {
+    background-color: #F0463E;
+}
 
 @media screen and (max-width: 1439px){
     .container-conteudo {
