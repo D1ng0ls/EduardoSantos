@@ -49,6 +49,16 @@ header img {
     justify-items: center;
 }
 
+.outros {
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    margin: auto;
+}
+
 .aula {
     margin: 100px 0;
     border-radius: 20px;
@@ -123,6 +133,18 @@ header img {
 
 .aula10 {
     background-color: #F0463E;
+}
+
+.aula11 {
+    background-color: #3ef04d;
+}
+
+.aula12 {
+    background-color: #f0ed3e;
+}
+
+.aula13 {
+    background: linear-gradient(54deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%);
 }
 
 @media screen and (max-width: 1439px){
